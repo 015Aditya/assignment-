@@ -1,0 +1,252 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d52ae7f6-9fd5-4e27-a045-0d1c0df3786f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[1,2,3,4,5,6,7,8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "71084b5d-0370-41d7-a365-91f8d884c7ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "  print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "5c350609-6786-4294-b64e-b052b63400fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "  print(i+1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "b7b2e2db-0a76-400d-9248-03758e2df988",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[\"aditya\",\"rajput\",\"pwskills\",\"course\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "6617fe8b-6ae6-48f0-a735-5350c41a00ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "aditya\n",
+      "rajput\n",
+      "pwskills\n",
+      "course\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "dc933f0e-0a60-487c-846f-b1e45825f747",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "aditya\n",
+      "rajput\n",
+      "pwskills\n",
+      "course\n"
+     ]
+    }
+   ],
+   "source": [
+    "l1 = []\n",
+    "for i in l:\n",
+    "    print(i)\n",
+    "    l1.append(i.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "70ccdcb3-1ad5-41ce-a44b-49efeb24b18b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['ADITYA', 'RAJPUT', 'PWSKILLS', 'COURSE']"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "79a2a21f-c459-4273-b409-774b3517613c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l = [1,2,3,4,4,\"aditya\",\"rajput\",324,34.456,\"abc\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d725a907-9951-494b-9276-13af569bfb17",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1_num = []\n",
+    "l2_str = []\n",
+    "for i in l :\n",
+    "    if type(i) == int or type(i) == float :\n",
+    "        l1_num.append(i)\n",
+    "    else:\n",
+    "        l2_str.append(i)\n",
+    "        print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8ff97537-0bbe-4e72-a3f6-f351e5905c68",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1_num"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1f0d6bc6-b6ac-4cad-8dfd-d5733803fa89",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7f3714a4-ee7f-465c-844c-f818b95ff9f5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a6685f1-f713-46fa-a202-bac089c7888b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2d1fac62-7ec4-4e6c-af47-c27ccff94747",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0d50c7ac-6119-4e2e-8bad-48bd070b5c94",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
